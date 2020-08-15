@@ -32,3 +32,7 @@ DB_URI = LINK TO YOUR DATABASE
 TOKEN_SECRET = your_other_secret 
 ```
 The secrets can be any text, they are basically text snippets used to hash/encrypt things and might potentially break stuff if changed. You could give them some random text like `asfadgajkdwvgadfafcgwhavhfbfefjaeehwgjkhan`.
+
+
+# Documentation
+As of now there's no documentation at all. Sorry for the inconvience.
