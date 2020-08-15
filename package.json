@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BurnyLlama/schoollabs2/issues"
   },
-  "homepage": "https://github.com/BurnyLlama/schoollabs2#readme"
+  "homepage": "https://github.com/BurnyLlama/schoollabs2#readme",
+  "dependencies": {
+    "express-vue": "^5.15.1"
+  }
 }
