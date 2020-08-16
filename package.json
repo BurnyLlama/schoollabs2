@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BurnyLlama/schoollabs2#readme",
   "dependencies": {
-    "express-vue": "^5.15.1"
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
   }
 }

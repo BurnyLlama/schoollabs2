@@ -1,0 +1,22 @@
+{% macro input(name, type='text', placeholder='', icon='', label='') %}
+    <div class="input-{{ type }}">
+        {% if icon %}
+            <img src="{{ icon }}">
+        {% endif %}
+        {% if label %}
+            <label for="{{ name }}">{{ label }}</label>
+        {% endif %}
+        <input type="{{ type }}" name="{{ name }}" id="{{ name }}" placeholder="{{ placeholder }}">
+    </div>
+{% endmacro %}
+
+{% macro submit(name, value='Submit', icon='') %}
+    <div class="input-{{ type }}">
+        {% if icon %}
+            <label for="{{ name }}">
+                <img src="{{ icon }}">
+            </label>
+        {% endif %}
+        <input type="submit" name="{{ name }}" id="{{ name }}" value="{{ value }}">
+    </div>
+{% endmacro %}

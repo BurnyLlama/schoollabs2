@@ -1,0 +1,21 @@
+{
+    "server": {
+        "loadingDone": "Settings loaded.",
+        "started": "The server started on port: "
+    },
+    "client": {
+        "welcome": "Welome to",
+        "forms": {
+            "examples": {
+                "username": "john.doe"
+            },
+            "username": "username",
+            "password": "password",
+            "submit": "submit"
+        },
+        "cookies": {
+            "summary": "This page uses cookies to enhance your experience.",
+            "readMore": "Read more..."
+        }
+    }
+}

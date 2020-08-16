@@ -1,0 +1,9 @@
+{
+    "server": {
+        "loadingDone": "Inställningar inladdae.",
+        "started": "Server har startat på port: "
+    },
+    "client": {
+        "welcome": "Välkommen till"
+    }
+}

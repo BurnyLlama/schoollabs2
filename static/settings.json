@@ -1,0 +1,11 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "school": {
+        "name": "That School",
+        "color": "#ff0022",
+        "background": "background_magenta.png"
+    },
+    "defaultLang": "en_GB"
+}
