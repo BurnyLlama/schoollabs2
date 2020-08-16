@@ -1,0 +1,1 @@
+const setBackgroundImage = image => document.querySelector('body').style.background = `url(${image})`

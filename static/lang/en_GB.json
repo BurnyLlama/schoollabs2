@@ -1,21 +1,33 @@
 {
+    "meta": {
+        "name": "English",
+        "translators": [
+            "BurnyLlama"
+        ]
+    },
     "server": {
         "loadingDone": "Settings loaded.",
         "started": "The server started on port: "
     },
     "client": {
+        "titles": {
+            "schoollabs": "SchoolLabs"
+        },
         "welcome": "Welome to",
         "forms": {
             "examples": {
-                "username": "john.doe"
+                "username": "john.doe",
+                "email": "user@domain.com"
             },
             "username": "username",
             "password": "password",
-            "submit": "submit"
+            "submit": "Submit!",
+            "signIn": "Log in!"
         },
         "cookies": {
             "summary": "This page uses cookies to enhance your experience.",
-            "readMore": "Read more..."
+            "readMore": "Read more...",
+            "policyLink": "/polices/cookies/en_GB"
         }
     }
 }

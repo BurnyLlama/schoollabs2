@@ -1,17 +1,17 @@
 {% macro input(name, type='text', placeholder='', icon='', label='') %}
-    <div class="input-{{ type }}">
+    <div class="input input-{{ type }}">
         {% if icon %}
             <img src="{{ icon }}">
         {% endif %}
         {% if label %}
-            <label for="{{ name }}">{{ label }}</label>
+            <label for="{{ name }}">{{ label | capitalize }}</label>
         {% endif %}
         <input type="{{ type }}" name="{{ name }}" id="{{ name }}" placeholder="{{ placeholder }}">
     </div>
 {% endmacro %}
 
 {% macro submit(name, value='Submit', icon='') %}
-    <div class="input-{{ type }}">
+    <div class="input input-submit">
         {% if icon %}
             <label for="{{ name }}">
                 <img src="{{ icon }}">

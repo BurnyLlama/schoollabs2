@@ -1,9 +1,33 @@
 {
+    "meta": {
+        "name": "Svenska",
+        "translators": [
+            "BurnyLlama"
+        ]
+    },
     "server": {
-        "loadingDone": "Inställningar inladdae.",
+        "loadingDone": "Inställningar inladdade.",
         "started": "Server har startat på port: "
     },
     "client": {
-        "welcome": "Välkommen till"
+        "titles": {
+            "schoollabs": "SchoolLabs"
+        },
+        "welcome": "Välkommen till",
+        "forms": {
+            "examples": {
+                "username": "egun.smörsson",
+                "email": "namn@doman.se"
+            },
+            "username": "användarnamn",
+            "password": "lösenord",
+            "submit": "Skicka!",
+            "signIn": "Logga in!"
+        },
+        "cookies": {
+            "summary": "Denna sida använder cookiess för att förbättra din användarupplevelse.",
+            "readMore": "Läs mer...",
+            "policyLink": "/polices/cookies/sv_SE"
+        }
     }
 }

@@ -1,0 +1,8 @@
+@font-face {
+    src: url('/fonts/Lato-Regular.ttf');
+    font-family: 'Lato';
+}
+
+* {
+    font-family: 'Lato', serif;
+}

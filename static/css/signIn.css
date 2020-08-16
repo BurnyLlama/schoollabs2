@@ -1,0 +1,49 @@
+@import 'fonts.css';
+@import 'forms.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-size: contain;
+    color: white;
+}
+
+header {
+    font-size: min(7vw, 48pt);
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    background: #1118;
+    padding: 1em;
+    width: fit-content;
+}
+
+footer {
+    width: 80vw;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language {
+    margin: .5em 1em;
+}
