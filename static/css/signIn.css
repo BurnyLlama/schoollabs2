@@ -1,5 +1,6 @@
 @import 'fonts.css';
-@import 'forms.css';
+@import 'icons.css';
+
 
 * {
     box-sizing: border-box;
@@ -27,6 +28,83 @@ form {
     background: #1118;
     padding: 1em;
     width: fit-content;
+}
+
+.input {
+    display: grid;
+    grid-template-areas: 'icon text' 'input input';
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 1em;
+    transition: .3s;
+}
+
+.input * {
+    font-size: min(3vw, 16pt);
+    color: white;
+    background: transparent;
+    border: 0;
+}
+
+.input .icon {
+    grid-area: icon;
+    height: min(3vw, 16pt);
+    margin: auto;
+}
+
+.input label {
+    margin: .5em;
+    grid-area: text;
+}
+
+.input input {
+    color: black;
+    background: white;
+    padding: .5em;
+    transition: border-radius .3s, padding 0s;
+    grid-area: input;
+}
+
+.input input:hover {
+    border-radius: .5em;
+}
+
+.input input:focus {
+    padding: .4em;
+    border: .1em solid tomato;
+    outline: 0 none transparent;
+}
+
+.input-submit {
+    background: tomato;
+    font-size: min(3vw, 16pt);
+    padding: .5em;
+    transition: .3s;
+    cursor: pointer;
+    /* display: grid;
+    grid-template-areas: 'icon text';
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
+    justify-content: center;
+}
+.input-submit > label {
+    height: min(3vw, 16pt);
+    width: min(3vw, 16pt);
+    grid-area: icon;
+    margin: auto 0;
+}
+
+.input-submit:hover {
+    border-radius: .8em;
+}
+
+.input-submit input {
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    grid-area: text;
+    margin: auto .25rem;
 }
 
 footer {

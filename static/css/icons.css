@@ -1,0 +1,8 @@
+.icon svg {
+    height: 100%;
+    width: auto;
+}
+
+.icon-white * {
+    fill: #ffffff;
+}

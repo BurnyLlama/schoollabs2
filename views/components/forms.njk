@@ -1,7 +1,9 @@
-{% macro input(name, type='text', placeholder='', icon='', label='') %}
+{% from '../components/icons.njk' import icon as icon with context %}
+
+{% macro input(name, type='text', placeholder='', iconType='', iconClassList='', label='') %}
     <div class="input input-{{ type }}">
-        {% if icon %}
-            <img src="{{ icon }}">
+        {% if iconType %}
+            {{ icon(iconType, iconClassList) }}
         {% endif %}
         {% if label %}
             <label for="{{ name }}">{{ label | capitalize }}</label>
@@ -10,11 +12,11 @@
     </div>
 {% endmacro %}
 
-{% macro submit(name, value='Submit', icon='') %}
+{% macro submit(name, value='Submit', iconType='', iconClassList='') %}
     <div class="input input-submit">
-        {% if icon %}
+        {% if iconType %}
             <label for="{{ name }}">
-                <img src="{{ icon }}">
+                {{ icon(iconType, iconClassList) }}
             </label>
         {% endif %}
         <input type="submit" name="{{ name }}" id="{{ name }}" value="{{ value }}">

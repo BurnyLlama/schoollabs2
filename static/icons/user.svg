@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   
+   
+   viewBox="0 0 270.93333 270.93334"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       id="path1693"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:128;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:50;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="M 512 0 C 229.98822 -7.1375308e-06 -7.1375309e-06 229.98822 0 512 C 0 641.54866 48.537132 760.11632 128.35156 850.45703 A 64.006399 64.006399 0 0 0 133.11914 856.37305 C 194.80601 924.24145 272.91692 973.56489 358.70312 1000.4941 C 359.24967 1000.6664 359.79447 1000.8432 360.3418 1001.0137 C 360.84946 1001.1712 361.35899 1001.3226 361.86719 1001.4785 C 363.56765 1002.0023 365.27064 1002.519 366.97852 1003.0254 C 410.92639 1016.0564 457.3072 1023.3298 505.24414 1023.9551 C 507.49293 1023.9844 509.74446 1024 512 1024 C 514.25552 1024 516.50708 1023.9844 518.75586 1023.9551 C 568.63612 1023.3044 616.83297 1015.4559 662.35547 1001.4121 C 662.77203 1001.2841 663.18927 1001.1584 663.60547 1001.0293 C 664.24861 1000.8291 664.88918 1000.6226 665.53125 1000.4199 C 751.22526 973.47441 829.25023 924.17958 890.88086 856.37305 A 64.006399 64.006399 0 0 0 895.63867 850.46875 C 975.45951 760.12652 1024 641.55449 1024 512 C 1024 229.98822 794.01175 -7.5791225e-14 512 0 z M 512 128.00195 C 724.83536 128.00195 896 299.16463 896 512 C 896 588.11147 874.10584 658.8906 836.25 718.42188 C 745.36812 644.05741 630.93228 602.65236 512 602.65234 L 511.32031 602.65234 A 64.006399 64.006399 0 0 0 511.22266 602.65234 C 392.56023 602.83252 278.42816 644.22374 187.75 718.42188 C 149.89416 658.8906 128.00195 588.11147 128.00195 512 C 128.00195 299.16462 299.16462 128.00195 512 128.00195 z M 512 160.85156 C 399.8291 160.85156 307.52148 253.15918 307.52148 365.33008 C 307.52148 477.50099 399.8291 569.80078 512 569.80078 C 624.1709 569.80074 716.47852 477.50099 716.47852 365.33008 C 716.47852 253.15918 624.1709 160.85157 512 160.85156 z M 512 288.85352 C 554.99447 288.85352 588.47656 322.33558 588.47656 365.33008 C 588.47656 408.32456 554.99447 441.80664 512 441.80664 C 469.00549 441.80664 435.52344 408.32456 435.52344 365.33008 C 435.52344 322.33558 469.00549 288.85352 512 288.85352 z M 511.41797 730.65234 L 512 730.65234 C 598.98823 730.65236 682.64072 760.1765 749.9375 813.32617 C 684.85651 864.72586 604.47809 894.02638 520.58008 895.90039 C 520.19297 895.90878 519.80536 895.91462 519.41797 895.92188 C 516.9478 895.96957 514.47588 896 512 896 C 509.52412 896 507.0522 895.96957 504.58203 895.92188 C 504.19464 895.91462 503.80703 895.90878 503.41992 895.90039 C 419.52191 894.02638 339.14349 864.72586 274.0625 813.32617 C 341.205 760.29783 424.63199 730.78412 511.41797 730.65234 z "
+       transform="scale(0.26458333)" />
+  </g>
+</svg>
