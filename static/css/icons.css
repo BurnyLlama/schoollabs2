@@ -3,6 +3,6 @@
     width: auto;
 }
 
-.icon-white * {
-    fill: #ffffff;
+.icon-lightest * {
+    fill: var(--lightest);
 }

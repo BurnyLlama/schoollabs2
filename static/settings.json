@@ -4,7 +4,8 @@
     },
     "school": {
         "name": "That School",
-        "color": "#ff0022",
+        "primaryColor": "#db13ee",
+        "secondaryColor": "#0022ff",
         "background": "background_magenta.png"
     },
     "defaultLang": "en_GB"

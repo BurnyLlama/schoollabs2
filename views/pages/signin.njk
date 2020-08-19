@@ -13,9 +13,9 @@
     </header>
     <main>
         <form>
-            {{ forms.input("username", placeholder=lang.forms.examples.username, label=lang.forms.username, iconType="user", iconClassList="icon-white") }}
-            {{ forms.input("password", placeholder=lang.forms.password, type="password", label=lang.forms.password, iconType="password", iconClassList="icon-white") }}
-            {{ forms.submit("signin-submit", value=lang.forms.signIn, iconType="login", iconClassList="icon-white") }}
+            {{ forms.input("username", placeholder=lang.forms.examples.username, label=lang.forms.username, iconType="user", iconClassList="icon-lightest") }}
+            {{ forms.input("password", placeholder=lang.forms.password, type="password", label=lang.forms.password, iconType="password", iconClassList="icon-lightest") }}
+            {{ forms.submit("signin-submit", value=lang.forms.signIn, iconType="login", iconClassList="icon-lightest") }}
         </form>
     </main>
     <footer>
@@ -31,6 +31,7 @@
 
     <script src="/scripts/signIn.js"></script>
     <script src="/scripts/include.js"></script>
+    <script src="/scripts/loadSettings.js"></script>
     <script>
         setBackgroundImage("/images/{{ school.background }}")
     </script>

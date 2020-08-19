@@ -1,0 +1,12 @@
+:root {
+    --lightest: #ffffff;
+    --lighter: #eeeeee;
+    --light: #dddddd;
+    --dark: #333333;
+    --darker: #222222;
+    --darkest: #111111;
+    --trans-dark: #11111188;
+    --trans-light: #eeeeee88;
+    --primary: #ff0000;
+    --secondary: #0000ff;
+}
