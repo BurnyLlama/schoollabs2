@@ -1,36 +1,53 @@
-const njk = require('nunjucks')
+/*
+    Package imports
+*/
+// Express
 const express = require('express')
 const server = express()
+const bodyParser = require('body-parser')
+const cookieParser = require('cookie-parser')
+// Nunjucks
+const njk = require('nunjucks')
+// 'Local' libs
 const getSettings = require('./libs/getSettings')
 const getLang = require('./libs/getLang')
 
-// Loading
+/*
+    Loading
+*/
 console.log('Loading settings...')
 const settings = getSettings()
 const lang = getLang(settings.defaultLang)
 console.log(lang.server.loadingDone)
 
-// Middlewares
+/*
+    Middlewares
+*/
+server.use(bodyParser.urlencoded({extended: true}))
+server.use(bodyParser.json())
+server.use(cookieParser())
 
-
-// Configs, etc.
+/*
+    Configs, etc.
+*/
 njk.configure('views', {
     autoescape: true,
     express: server
 })
+// Use the 'statc' folder to serve static files like css, scripts and images.
 server.use(express.static('static'))
 
+/*
+    ROUTES
+*/
+// Login pages... (Login pages are not top-level, but they redirect from top-level)
+server.use('/', require('./routes/login'))
 
-// Routers
-server.get('/', (req,res) => res.redirect(`/login/${settings.defaultLang}`))
-server.get('/login', (req,res) => res.redirect(`/login/${settings.defaultLang}`))
+// About pages, might include policies and such in the future.
+server.use('/about', require('./routes/about'))
 
-server.get('/login/:lang', (req, res) => {
-    res.render('pages/signin.njk', {lang: getLang(req.params.lang).client, school: settings.school})
-})
+// The APi
+server.use('/api', require('./routes/api/api'))
 
-server.get('/about/:lang', (req, res) => {
-    res.render('pages/about.njk', {lang: getLang(req.params.lang).client, school: settings.school})
-})
 
 server.listen(settings.server.port, () => console.log(lang.server.started + settings.server.port))

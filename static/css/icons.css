@@ -1,6 +1,7 @@
 .icon svg {
     height: 100%;
     width: auto;
+    margin: auto;
 }
 
 .icon-lightest * {

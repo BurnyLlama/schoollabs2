@@ -1,4 +1,5 @@
 @import 'variables.css';
+@import 'scaling.css';
 @import 'fonts.css';
 @import 'icons.css';
 
@@ -49,18 +50,20 @@ form {
 
 .input .icon {
     grid-area: icon;
-    height: min(3vw, 16pt);
-    margin: auto;
+    height: 1.25rem;
+    margin: auto 0;
 }
 
 .input label {
-    margin: .5em;
+    display: flex;
+    margin: auto .5em;
     grid-area: text;
 }
 
 .input input {
     color: var(--darkest);
     background: var(--lightest);
+    margin: auto 0;
     padding: .5em;
     transition: border-radius .3s, padding 0s;
     grid-area: input;
@@ -71,8 +74,8 @@ form {
 }
 
 .input input:focus {
-    padding: .4em;
-    border: .1em solid var(--primary);
+    padding: .35em;
+    border: .15em solid var(--primary);
     outline: 0 none transparent;
 }
 
